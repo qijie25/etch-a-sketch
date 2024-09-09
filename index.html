@@ -8,28 +8,26 @@
 </head>
 <body>
     <div class="main-container">
-        <section class="controls">
+        <div class="controls">
             <div class="color-control">
-                <label for="base">Color:</label>
+                <label for="base">Pick Color</label>
                 <input type="color" id="base" name="base" value="#000000">
             </div>
             <div class="grid-control">
                 <label for="grid-size">Grid Size: <span id="grid-size-value">8x8</span></label>
-                <input type="range" id="grid-size" name="grid-size" min="2" max="50" value="8">
+                <input type="range" id="grid-size" name="grid-size" min="2" max="48" value="8">
             </div>
-            <div class="brush-control">
-                <button id="normal" class="normal-btn active">Normal Mode</button>
+            <div class="pen-control">
+                <button id="normal" class="normal-btn">Normal Mode</button>
                 <button id="rainbow" class="rainbow-btn">Rainbow Mode</button>
-                <button id="shade" class="shade-btn">Shading Mode</button>
             </div>
             <div class="clear-control">
                 <button id="erase" class="erase-btn">Erase</button>
-                <button id="lighten" class="lighten-btn">Lighten</button>
                 <button id="clear" class="clear-btn">Clear</button>
             </div>
-        </section>
+        </div>
         <div class="sketch-container">
-            <h2>Etch-a-Sketch</h2>
+            <div class="title">Etch-a-Sketch</div>
             <div class="grid-container">
                 <!-- To add the grids using JavaScript -->
             </div>
