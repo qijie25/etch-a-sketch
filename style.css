@@ -147,7 +147,7 @@ input[type="range"]:focus {
 .lighten-btn:hover,
 .clear-btn:hover {
     background: #5C5858;
-    box-shadow: 0 0 0.625rem rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0.625rem rgba(255, 255, 255, 0.1);
     font-weight: 700;
 }
 
